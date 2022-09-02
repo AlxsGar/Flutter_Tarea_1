@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget{
             SizedBox(width: 10,),
             Column(children: [
               Image.asset('assets/Images/photo.png',width: 100, height: 100,),
-              Text('Imagen 4'),
+              Text('Imagen 34'),
             ],),
           ],),
           ],
