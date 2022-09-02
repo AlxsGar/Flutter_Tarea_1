@@ -10,13 +10,17 @@ class MyApp extends StatelessWidget{
       appBar: AppBar(title: Column(children: [
         Row(children: [
           Title(color: Colors.black, child: Text('Tarea 1')),
-          SizedBox(width: 50,),
+          SizedBox(width: 25,),
           Image.asset('assets/Images/photo.png',width: 30, height: 30,),
+          SizedBox(width: 25,),
           Image.asset('assets/Images/photo.png',width: 30, height: 30,),
+          SizedBox(width: 25,),
           Image.asset('assets/Images/photo.png',width: 30, height: 30,),
         ],)
       ],)),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Text('This is my first App'),
           SizedBox(height: 20,),
